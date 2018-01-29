@@ -23,21 +23,21 @@
 		</script>
 	<![endif]-->
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+   	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/examples.js"></script>
-   
+
     <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+
               
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
+				afterRender: function(){
+              new WOW().init();},
 				autoScrolling: false,
 				css3: true,
 				fitToSection: false,
@@ -62,8 +62,9 @@
          <li><a href="#">Behance</a></li>
          <li><a href="#">Codepen</a></li>
          <li><a href="#">Linkedin</a></li>
-              </li>
-       </ul>
+        </ul>
+       </li>
+	</ul>
  </nav>
  </header>
 
@@ -79,7 +80,7 @@
 
 </div>
 
-<div class="wrap">
+<div class="portfoliowrap">
 <div class="portfolio">
 <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s">Posters</h1>
 <h4 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">Client: None
