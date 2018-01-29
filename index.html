@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display:400,400i,700,700i|Pragati+Narrow" rel="stylesheet">
+<link href="https://file.myfontastic.com/GWddw6CFh3jurLKEeWTmV3/icons.css" rel="stylesheet">
+	<title>Hello</title>
+	<meta name="author" content="Serena Antonetti" />
+	<meta name="description" content="Serena Antonetti graphic design web portfolio" />
+	<meta name="keywords"  content="portfolio, design" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/pixi.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+   
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				menu: '#menu',
+				anchors: ['Branding', 'Posters', 'Various', 'Personal'],
+				responsiveWidth: 900,
+				scrollBar:true,
+				afterResponsive: function(isResponsive){
+					
+				}
+
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="Branding"><a href="#Branding"> 1 <span class="long">---</span></a></li>
+	<li data-menuanchor="Posters"><a href="#Posters">2 <span class="long">---</span></a></li>
+	<li data-menuanchor="Various"><a href="#Various">3 <span class="long">---</span> </a></li>
+		<li data-menuanchor="Personal"><a href="#Personal">4 <span class="long">---</span> </a></li>
+
+</ul>
+
+<header>
+<!-- Use any element to open/show the overlay navigation menu -->
+<nav>
+   <ul>
+     <li class="sub-menu-parent" tab-index="0">
+       <a class="inactive">Find me</a>
+       <ul class="sub-menu">
+         <li><a href="#">Behance</a></li>
+         <li><a href="#">Codepen</a></li>
+         <li><a href="#">Linkedin</a></li>
+              </li>
+       </ul>
+ </nav>
+ </header>
+
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+    <a href="javascript:delay('hummingbird.html')" class="project frontpage bounceOutLeft1">
+	    <div class="projectimg wow fadeInLeft hummingbird" data-wow-duration="2.5s" data-wow-delay="0.5s">
+	    </div>
+<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Branding</span></h1>
+	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Illustrator<br> Photoshop <br>HTML/CSS</h2>
+<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+</a>
+	</div>
+	
+			<div class="section" id="section1">
+    <a href="javascript:delay('posters.html')" class="project frontpage bounceOutLeft1">
+	    <div class="projectimg wow fadeInLeft posters" data-wow-duration="2.5s" data-wow-delay="0.5s">
+	    </div>
+<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Posters</span></h1>
+	<h2 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">Photoshop <br>Cinema 4d</h2>
+<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+</a>
+	</div>
+	
+
+	
+	<div class="section" id="section2">
+    <a href="javascript:delay('various.html')" class="project frontpage bounceOutLeft1">
+		<div class="projectimg wow fadeInLeft logos" data-wow-duration="2.5s" data-wow-delay="0.5s">
+	    </div>
+						<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Various</span></h1>
+	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">ios swift<br> Photoshop<br> Cinema 4d<br> Photoshop</h2>
+<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+
+</a>
+	</div>
+	
+		<div class="section" id="section3">
+    <a href="javascript:delay('personal.html')" class="project frontpage bounceOutLeft1">
+		<div class="videoholder wow fadeInLeft" data-wow-duration="2.5s" data-wow-delay="0.5s">
+		<video class="myVideo center" loop muted data-autoplay poster="img/PersonalBranding.jpg" >
+			<source src="img/PersonalBranding.mp4" type="video/mp4">			
+			<source src="img/PersonalBranding.webm" type="video/webm">
+			<source src="img/PersonalBranding.ogv" type="video/ogv">
+
+		</video>
+			</div>
+			
+			<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Personal</span></h1>
+	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Illustrator<br> Photoshop <br> Cinema 4d</h2>
+<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+	</a>
+	</div>
+
+	</div>
+	
+	<footer>
+
+	
+	<p><span class="underline-text"><a href="mailto:serena.antonetti@gmail.com?subject=Hi!">serena.antonetti@gmail.com</a></span></p> 
+	</footer>
+</body>
+</html>
