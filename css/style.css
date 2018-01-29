@@ -90,6 +90,7 @@ body{
 	font-family: 'Karla', sans-serif;
 	font-size: 1em;
 	color: #0D0D0D;
+	overflow: hidden;
 }
 .wrap{
 	margin-left: auto;
