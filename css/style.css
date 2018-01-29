@@ -46,11 +46,29 @@ p{
 	font-size: 100%;
 }
 
-.wrap{
+.portfoliowrap{
 	width: 100%;
 	position: relative;
-		margin-bottom: 20%;
+	margin-bottom: 20%;
 
+}
+
+
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	color: #0D0D0D;
+	overflow: hidden;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
 }
 
 .portfolio {
@@ -81,22 +99,6 @@ p{
 	width: 100%;
 	padding: 10% 0 0 0;
 
-}
-
-
-/* Custom CSS
- * --------------------------------------- */
-body{
-	font-family: 'Karla', sans-serif;
-	font-size: 1em;
-	color: #0D0D0D;
-	overflow: hidden;
-}
-.wrap{
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-	position: relative;
 }
 
 
