@@ -1,4 +1,182 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
 
+a {
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+p{
+	font-size: 100%;
+}
+
+.portfoliowrap{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20%;
+
+}
+
+
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	color: #0D0D0D;
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+
+.portfolio {
+	left: 0; right: 0; margin: auto;
+	width: 80%;
+	position: absolute;
+	padding-top: 10%;
+	padding-bottom: 30%;
+}
+
+.portfolio h4 {
+	text-align: right;
+	line-height: 2em;
+	padding-bottom: 10%;
+}
+
+.portfolio p {
+	font-size: 100%;
+}
+
+.portfolio img {
+	width: 100%;
+	padding: 10% 0 0 0;
+}
+
+
+.portfolio video {
+	width: 100%;
+	padding: 10% 0 0 0;
+
+}
+
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+}
+#menu li.active{
+	color: #000;
+}
+#menu li a{
+	text-decoration:none;
+	font-size: 130%;
+	color: #fff;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #000;
+}
+#menu{
+	position:fixed;
+	transform: rotate(90deg);
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 0;
+	margin-right: 30%;
+	z-index: 70;
+}
+
+.long {
+	letter-spacing: -2px;
+	padding: 0px 7px;
+}
+
+
+
+.frontpage {
+		cursor: url(../img/cursor.png), pointer;
+}
+
+.projectimg {
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.display {
+	left: 20%;
+}
+
+.display .projectimg {
+	width: 100%;
+}
+
+.display .videoholder {
+	width: 100%;
+}
+
+.videoholder {
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
 
 .center { 
 	height: 100%;
