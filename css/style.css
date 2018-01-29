@@ -1,174 +1,360 @@
-@CHARSET "ISO-8859-1";
-/* Reset CSS
- * --------------------------------------- */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
-form,fieldset,input,textarea,p,blockquote,th,td {
-    padding: 0;
-    margin: 0;
+
+
+.center { 
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;}
+
+.hummingbird {
+	background-image: url(../img/Hummingbird6.jpg);
 }
 
-a {
-	text-decoration: none;
-	color: #333;
-	cursor: pointer;
+.logos {
+	background-image: url(../img/Bamboo1.jpg);
 }
 
-table {
-    border-spacing: 0;
+.posters {
+	background-image: url(../img/Posters.jpg);
 }
-fieldset,img {
-    border: 0;
-}
-address,caption,cite,code,dfn,em,strong,th,var {
-    font-weight: normal;
-    font-style: normal;
-}
-strong{
-	font-weight: bold;
-}
-ol,ul {
-    list-style: none;
-    margin:0;
-    padding:0;
-}
-caption,th {
-    text-align: left;
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 600%;
+	z-index: 10;
 
 }
 
-q:before,q:after {
-    content:'';
-}
-abbr,acronym { border: 0;
-}
-
-p{
-	font-size: 100%;
-}
-
-.portfoliowrap{
-	width: 100%;
-	position: relative;
-	margin-bottom: 20%;
-
-}
-
-
-
-
-/* Custom CSS
- * --------------------------------------- */
-body{
-	font-family: 'Karla', sans-serif;
-	font-size: 1em;
-	color: #0D0D0D;
-	overflow: hidden;
-}
-.wrap{
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-	position: relative;
-}
-
-.portfolio {
-	left: 0; right: 0; margin: auto;
-	width: 80%;
+.project h1 {
+	left: 25%;
+	bottom: 25%;
+	text-align: left;
 	position: absolute;
-	padding-top: 10%;
-	padding-bottom: 30%;
 }
 
-.portfolio h4 {
-	text-align: right;
-	line-height: 2em;
+.portfolio h1 {
+	text-align: center;
+	position: relative;
 	padding-bottom: 10%;
 }
 
-.portfolio p {
-	font-size: 100%;
-}
-
-.portfolio img {
-	width: 100%;
-	padding: 10% 0 0 0;
-}
 
 
-.portfolio video {
-	width: 100%;
-	padding: 10% 0 0 0;
-
-}
-
-
-#menu li {
-	display:inline-block;
-	margin: 10px;
-}
-#menu li.active{
-	color: #000;
-}
-#menu li a{
-	text-decoration:none;
-	font-size: 130%;
-	color: #fff;
-}
-#menu li.active a:hover{
-	color: #000;
-}
-#menu li:hover{
-}
-#menu li a,
-#menu li.active a{
-	padding: 9px 18px;
-	display:block;
-}
-#menu li.active a{
-	color: #000;
-}
-#menu{
-	position:fixed;
-	transform: rotate(90deg);
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	right: 0;
-	margin-right: 30%;
-	z-index: 70;
-}
-
-.long {
-	letter-spacing: -2px;
-	padding: 0px 7px;
-}
-
-.project {
-	display: block;
-	flex: none;
+h2 {
+   font-family: 'Pragati Narrow', sans-serif;
+   font-weight: 400;
+   text-transform: uppercase;
+   font-size: 100%;
+   letter-spacing: 2px;
 	position: absolute;
-	z-index: 100;
-	top: 15%;
-	left: 25%;
-	width: 60%;
+	top: 7%;
+	left: -5%;
+	z-index: 10;
+}
+
+h3 {
+	left:15%;
+	bottom: 20%;
+ font-family: 'Karla', sans-serif;
+	font-size: 150%;
+ overflow: hidden;
+	font-weight: 400;
+ text-align: center;
+	    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+        position: relative;
+}
+
+
+
+h3:before {
+ background-color: #7F7F7F;
+ content: "";
+ display: inline-block;
+ height: 1.5px;
+ position: relative;
+ vertical-align: middle;
+ width: 10%;
+	  transition: all 0.5s ease-in;
+}
+h3:before {
+ right: 0.5em;
+
+}
+
+
+/* Colour underline
+ * --------------------------------------- */
+
+.underline-headings {
+  background-image: linear-gradient(120deg, #fff 100%, #fff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 83%;
+  transition: background-size 0.25s ease-in;
+	}
+
+.frontpage:hover .underline-headings {
+  background-size: 100% 0.5em;
+  background-position: 100% 100%;
+	}
+
+.frontpage:hover h3:before {
+	width: 5%;
+}
+
+.underline-text {
+  background-image: linear-gradient(120deg, #6B7FD7 100%, #6B7FD7 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 83%;
+  transition: background-size 0.25s ease-in;
+	}
+
+.underline-text:hover {
+	background-size: 100% 0.2em;
+    background-size: 100% 88%;
+  }
+
+
+/* Footer
+ * --------------------------------------- */
+
+footer {
+    width: 100%;
+	bottom: 0; 
+	font-size: 100%;
+	position: fixed;
+    padding-bottom: 3%;
+	z-index: 1;
+}
+
+footer p {
+	position: absolute;
+	left: 0;
+	font-size: 100%;
+	text-align: left;
+	display: inline;
+	padding-left: 5%;
+}
+
+
+/* Social Links
+ * --------------------------------------- */
+
+.sub-menu-parent {
+  position: relative;
+}
+.sub-menu {
+  visibility: hidden;
+  /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible;
+  /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+
+nav a {
+  display: block;
+  font-size: 100%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+	transition: 0.3s;
+}
+nav a:hover {
+  color: #6B7FD7;
+}
+nav ul,
+nav ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav > ul {
+  text-align: right;
+}
+nav > ul > li {
+  display: inline-block;
+  border-left: solid 1px #aaa;
+}
+nav > ul > li:first-child {
+  border-left: none;
+}
+
+header {
+	position: fixed;
+	z-index: 1000;
+	right: 0;
+	left: 0;
+	top: 0;
+	padding: 3% 5% 0 5%;
+}
+
+.backhome {
+	display: inline-block;
+    left: 0;
+}
+
+nav {
+   	text-align: right;	
+	display: inline-block;
+	float: right;
+}
+
+.inactive:hover {
+	  color: black;
+
+}
+
+
+/* SCROLL ICON PORTFOLIO
+ * --------------------------------------- */
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 20px;
+  height: 35px;
+  margin-left: -10px;
+  bottom: 0;
+	margin-bottom: 2%;
+  -webkit-box-shadow: inset 0 0 0 1px #333;
+          box-shadow: inset 0 0 0 1px #333;
+  border-radius: 12.5px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: #333;
+  margin-left: -2px;
+  top: 8px;
+  border-radius: 2px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+
+.projectlink {
+	float: right;
+    padding-right: 5%;
+	display: inline;
+}
+
+/* OVERLAY
+ * --------------------------------------- */
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 80%; 
+	left: 0; right: 0; margin: auto;
+    text-align: left; 
+    margin-top: 50px; 
+	color: #eee;
+}
+
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+	color:#717171;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* RESPONSIVE
+ * --------------------------------------- */
+
+@media screen and (max-width: 450px) {
+
+	body {
+	font-size: .5em;
+}
+	
+	.project {
+	top: 10%;
+	left: 10%;
+	width: 70%;
 	height: 70%;
 }
 
-.frontpage {
-		cursor: url(../img/cursor.png), pointer;
-}
-
 .projectimg {
-	top: 0;
-	left: 0;
 	width: 50%;
-	height: 100%;
-	background-size: cover;
-	background-position: center;
 }
 
 .display {
-	left: 20%;
+	left: 5%;
 }
 
 .display .projectimg {
@@ -187,4 +373,106 @@ body{
 	z-index: 0;
 	overflow: hidden;
 }
+	
+.sub-menu-parent {
+  color: white;
+}
+.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;	
+	
+	
+}
 
+}
+		
+@media screen and (max-width: 800px) {
+			
+body {
+	font-size: .5em;
+}
+
+	.project {
+	top: 10%;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+}
+
+.projectimg {
+	width: 80%;
+}
+
+.display {
+	left: 5%;
+	width: 90%;
+}
+
+.display .projectimg {
+	width: 100%;
+}
+
+.display .videoholder {
+	width: 100%;
+}
+
+.videoholder {
+	width: 80%;
+}
+	
+.inactive {
+  opacity: 0;
+}
+.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;	
+}
+	
+h2 {
+display: none;	}
+
+	
+	nav a {
+  padding: 0em 1em;
+}
+	
+	.sub-menu {
+		  transform: translateY(0px);
+	}
+	
+	.wrap {
+	width: 100%;
+		position: absolute;
+		left: 0;
+	}
+}
+
+.caption {
+	padding-top: 10%;
+	padding-left: 5%;
+}
+
+.caption a:before {
+ background-color: #7F7F7F;
+ content: "";
+ display: inline-block;
+ height: 1.5px;
+ position: relative;
+ vertical-align: middle;
+ width: 0%;
+ transition: all 0.5s ease-in;
+}
+.caption a:before {
+ right: 0.5em;
+
+}
+
+.caption a:hover {
+	  color: #6B7FD7;
+}
+
+.caption a:hover:before {
+	width: 3%;
+}
