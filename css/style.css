@@ -142,7 +142,14 @@ body{
 	padding: 0px 7px;
 }
 
-
+.project {
+	position: absolute;
+	z-index: 100;
+	top: 15%;
+	left: 25%;
+	width: 60%;
+	height: 70%;
+}
 
 .frontpage {
 		cursor: url(../img/cursor.png), pointer;
