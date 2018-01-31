@@ -46,7 +46,7 @@ p{
 	font-size: 100%;
 }
 
-.portfoliowrap{
+.portfolio {
 	width: 100%;
 	position: relative;
 	margin-bottom: 20%;
@@ -627,7 +627,7 @@ display: none;	}
 		  transform: translateY(0px);
 	}
 	
-	.wrap {
+	.portfoliowrap {
 	width: 100%;
 		position: absolute;
 		left: 0;
