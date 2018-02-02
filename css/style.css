@@ -281,13 +281,13 @@ h3:before {
   background-image: linear-gradient(120deg, #fff 100%, #fff 100%);
   background-repeat: no-repeat;
   background-size: 100% 0em;
-  background-position: 0 83%;
+  background-position: 0 100%;
   transition: background-size 0.25s ease-in;
 	}
 
 .frontpage:hover .underline-headings {
   background-size: 100% 0.5em;
-  background-position: 100% 100%;
+  background-position: 0 100%;
 	}
 
 .frontpage:hover h3:before {
