@@ -202,14 +202,14 @@ body{
 	background-image: url(../img/Posters.jpg);
 }
 
-.soldoa {
+.soldoaimg {
 		background-image: url(../img/Soldoa5.jpg);
 }
 
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	font-size: 600%;
+	font-size: 500%;
 	z-index: 10;
 
 }
