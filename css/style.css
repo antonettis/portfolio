@@ -531,9 +531,20 @@ nav {
 
 @media screen and (max-width: 450px) {
 
-	body {
-	font-size: .5em;
-}
+	h1 {
+		font-size: 250%;
+	}
+	
+	h3 {
+		font-size: 100%;
+	}
+	
+	p {
+		font-size: 30%;
+	}
+	
+	
+
 	
 	.project {
 	top: 10%;
@@ -543,7 +554,7 @@ nav {
 }
 
 .projectimg {
-	width: 50%;
+	width: 70%;
 }
 
 .display {
@@ -561,7 +572,7 @@ nav {
 .videoholder {
 	top: 0;
 	left: 0;
-	width: 50%;
+	width: 70%;
 	height: 100%;
 	z-index: 0;
 	overflow: hidden;
@@ -582,9 +593,7 @@ nav {
 		
 @media screen and (max-width: 800px) {
 			
-body {
-	font-size: .5em;
-}
+
 
 	.project {
 	top: 10%;
