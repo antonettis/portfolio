@@ -543,7 +543,9 @@ nav {
 		font-size: 30%;
 	}
 	
-	
+	footer {
+    padding-bottom: 7%;
+}	
 
 	
 	.project {
@@ -577,23 +579,27 @@ nav {
 	z-index: 0;
 	overflow: hidden;
 }
-	
-.sub-menu-parent {
-  color: white;
-}
-.sub-menu {
-  visibility: visible;
-  opacity: 1;
-  z-index: 1;	
-	
-	
-}
+
 
 }
 		
 @media screen and (max-width: 800px) {
-			
-
+	
+		h1 {
+		font-size: 250%;
+	}
+	
+	h3 {
+		font-size: 100%;
+	}
+	
+	p {
+		font-size: 30%;
+	}
+	
+	footer {
+    padding-bottom: 7%;
+}
 
 	.project {
 	top: 10%;
@@ -622,14 +628,17 @@ nav {
 .videoholder {
 	width: 80%;
 }
-	
-.inactive {
-  opacity: 0;
-}
-.sub-menu {
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:active .sub-menu {
   visibility: visible;
+  /* shows sub-menu */
   opacity: 1;
-  z-index: 1;	
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
 	
 h2 {
