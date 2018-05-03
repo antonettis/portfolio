@@ -628,6 +628,11 @@ nav {
 .videoholder {
 	width: 80%;
 }
+	
+	.portfolio {
+	width: 70%;
+		
+	}
 
 .sub-menu-parent:focus .sub-menu,
 .sub-menu-parent:focus-within .sub-menu,
