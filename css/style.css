@@ -41,7 +41,7 @@ body{
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: grey;
 	
 }
 
@@ -617,7 +617,6 @@ header {
 .overlay-nav p {
 font-family: 'Didact Gothic', sans-serif;
 	letter-spacing: 1px;
-	color: #fff;
 	position: absolute;
 	bottom: 10%;
 	left: 10%;
