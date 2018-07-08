@@ -49,14 +49,3 @@ function delay (URL) {
     setTimeout( function() { window.location = URL }, 500 );
 }
 
-
-/* Open when someone clicks on the span element */
-function openAbout() {
-    document.getElementById("About").style.width = "100%";
-}
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeAbout() {
-    document.getElementById("About").style.width = "0%";
-}
-

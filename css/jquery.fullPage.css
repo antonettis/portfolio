@@ -5,6 +5,8 @@
  *
  * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
  */
+
+
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;
@@ -95,8 +97,8 @@ html.fp-enabled,
 #fp-nav {
     position: fixed;
     z-index: 100;
-    margin-top: -32px;
     top: 50%;
+	margin-right: 20%;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
 }
@@ -133,7 +135,7 @@ html.fp-enabled,
     display: block;
     width: 14px;
     height: 13px;
-    margin: 7px;
+    margin: 25px;
     position:relative;
 }
 .fp-slidesNav ul li {
@@ -153,23 +155,22 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 12px;
-    width: 12px;
-    margin: -6px 0 0 -6px;
-    border-radius: 100%;
+    height: 30px;
+    width: 2px;
+    margin: -1px 0 0 -1px;
+	background: #333333;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-    border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 4px;
-    width: 4px;
+    height: 30px;
+    width: 2px;
     border: 0;
-    background: #333;
+    background: #eeeeee;
     left: 50%;
     top: 50%;
-    margin: -2px 0 0 -2px;
+    margin: -1px 0 0 -1px;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;

@@ -3,8 +3,7 @@
 
 <head>
 
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Playfair+Display:400,400i,700,700i|Pragati+Narrow" rel="stylesheet">
-<link href="https://file.myfontastic.com/GWddw6CFh3jurLKEeWTmV3/icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Cutive+Mono|Playfair+Display:400,400i,700,700i|Josefin+Sans:300,400|Didact+Gothic" rel="stylesheet">
 	<title>Serena Antonetti | Portfolio</title>
 	
 	<meta name="author" content="Serena Antonetti" />
@@ -32,15 +31,14 @@
 	<script src="js/examples.js"></script>
 
     <script src="js/wow.min.js"></script>
-
-              
+        
 	<script>
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				afterRender: function(){
               new WOW().init();},
 				menu: '#menu',
-				anchors: ['Yogamama', 'Hummingbird', 'Soldoa', 'EatWelly'],
+				anchors: ['Princiere', 'Yogamama', 'Hummingbird', 'Soldoa', 'EatWelly'],
 				responsiveWidth: 900,
 				scrollBar:true,
 				afterResponsive: function(isResponsive){}
@@ -49,6 +47,7 @@
 			});
 		});
 	</script>
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120382703-1"></script>
@@ -61,84 +60,130 @@
 </script>
 
 </head>
-<body>
-
-<ul id="menu">
-	<li data-menuanchor="Yogamama"><a href="#Yogamama">1 <span class="long">---</span></a></li>
-	<li data-menuanchor="Hummingbird"><a href="#Hummingbird"> 2 <span class="long">---</span></a></li>
-	<li data-menuanchor="Soldoa"><a href="#Soldoa">3 <span class="long">---</span> </a></li>
-	<li data-menuanchor="EatWelly"><a href="#EatWelly">4 <span class="long">---</span> </a></li>
-
-</ul>
-
-<header>
-<nav>
-   <ul>
-     <li class="sub-menu-parent" tab-index="0">
-       <a class="inactive">Find me</a>
-       <ul class="sub-menu">
-         <li><a href="https://www.behance.net/antonettiserena" onclick="window.open(this.href,'_blank');return false;">Behance</a></li>
-         <li><a href="https://codepen.io/antonettis/" onclick="window.open(this.href,'_blank');return false;">Codepen</a></li>
-         <li><a href="https://www.linkedin.com/in/serena-antonetti" onclick="window.open(this.href,'_blank');return false;">Linkedin</a></li>
+<body onload="myFunction()">	    		
+	    		
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" id="loader">
+  <defs>    
+    <clipPath id="clip-path">
+      <rect id="rect" x="0" y="0" height="800" width="800"/>
+    </clipPath>
+  </defs>
+  
+  <path fill="#fff" d="M488.7,103h-42.3L285.5,483.3H36.2v38.1h233.2l-73.8,174.5h39l74.5-174.5h265.8h26.4l81.3,174.5
+	h82.1L488.7,103z M574.9,483.3H325.2l121.9-285.4h3.4l133,285.4H574.9z"/>
+  <path clip-path="url(#clip-path)" fill="#333" d="M488.7,103h-42.3L285.5,483.3H36.2v38.1h233.2l-73.8,174.5h39l74.5-174.5h265.8h26.4l81.3,174.5
+	h82.1L488.7,103z M574.9,483.3H325.2l121.9-285.4h3.4l133,285.4H574.9z"/>  
+</svg>
+	    					    <div class="nav-container">
+    </div>
+    <div class="button_container wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="overlay-nav" id="overlay-nav">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="https://www.behance.net/antonettiserena" onclick="window.open(this.href,'_blank');return false;">Behance</a></li>
+          <li><a href="https://codepen.io/antonettis/" onclick="window.open(this.href,'_blank');return false;">Linkedin</a></li>
+          <li><a href="https://www.linkedin.com/in/serena-antonetti" onclick="window.open(this.href,'_blank');return false;">Codepen</a></li>
         </ul>
-       </li>
-	</ul>
- </nav>
- </header>
+      </nav>
+      <p><a href="mailto:serena.antonetti@gmail.com?subject=Hi!">serena.antonetti@gmail.com</a></p>
+    </div>
+				<ul id="menu">
+				<li data-menuanchor="Princiere" class="menu__item wow fadeInUp" data-wow-duration="2s"><a href="#Princiere">
+					    <span class="menu__item-number">01</span>
+						<span class="menu__item-name">La Princi&egrave;re</span>
+						<span class="menu__item-label">Branding, Digital, Environmental</span>
+					</a></li>
+				<li data-menuanchor="Yogamama" class="menu__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s"><a href="#Yogamama">
+					    <span class="menu__item-number">02</span>
+						<span class="menu__item-name">Yogamama</span>
+						<span class="menu__item-label">Branding, Environmental</span>
+					</a></li>
+				<li data-menuanchor="Hummingbird" class="menu__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s"><a href="#Hummingbird">
+					    <span class="menu__item-number">03</span>
+						<span class="menu__item-name">Hummingbird</span>
+						<span class="menu__item-label">Branding, Digital, Environmental</span>
+					</a></li>
+				<li data-menuanchor="Soldoa" class="menu__item wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.5s"><a href="#Soldoa">
+					    <span class="menu__item-number">04</span>
+						<span class="menu__item-name">Soldoa</span>
+						<span class="menu__item-label">Branding, Environmental</span>
+					</a></li>
+				<li data-menuanchor="EatWelly" class="menu__item  wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s"><a href="#EatWelly">
+					    <span class="menu__item-number">05</span>
+						<span class="menu__item-name">EatWelly</span>
+						<span class="menu__item-label">Digital</span>
+					</a></li>
+				</ul>
 
-
-
-<div id="fullpage">
-			<div class="section" id="section0">
-    <a href="javascript:delay('yogamama.html')" class="project frontpage bounceOutLeft1">
-	    <div class="projectimg wow fadeInLeft yogamamaimg" data-wow-duration="2.5s" data-wow-delay="0.5s">
+<div id="fullpage" class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
+				<div class="section" id="section0">
+    <a href="javascript:delay('laprinciere.html')" class="project frontpage bounceOutRight1">
+	    <div class="projectimg princiereimg">
 	    </div>
-<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Yogamama</span></h1>
-	<h2 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">Illustrator <br>Photoshop</h2>
-<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+	      <div class="overlay">
+    <div class="text">View Project</div>
+  </div>
+</a>
+	</div>
+			<div class="section" id="section1">
+    <a href="javascript:delay('yogamama.html')" class="project frontpage bounceOutRight1">
+	    <div class="projectimg yogamamaimg">
+	    </div>
+	    	      <div class="overlay">
+    <div class="text">View Project</div>
+  </div>
 </a>
 	</div>
 	
-	<div class="section" id="section1">
-    <a href="javascript:delay('hummingbird.html')" class="project frontpage bounceOutLeft1">
-	    <div class="projectimg wow fadeInLeft hummingbirdimg" data-wow-duration="2.5s" data-wow-delay="0.5s">
+	<div class="section" id="section2">
+    <a href="javascript:delay('hummingbird.html')" class="project frontpage bounceOutRight1">
+	    <div class="projectimg hummingbirdimg">
 	    </div>
-<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Hummingbird</span></h1>
-	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Illustrator<br> Photoshop <br>HTML/CSS</h2>
-<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+	    	      <div class="overlay">
+    <div class="text">View Project</div>
+  </div>
 </a>
 	</div>
 	
-			<div class="section" id="section2">
-    <a href="javascript:delay('soldoa.html')" class="project frontpage bounceOutLeft1">
-		<div class="projectimg wow fadeInLeft soldoaimg" data-wow-duration="2.5s" data-wow-delay="0.5s">
+			<div class="section" id="section3">
+    <a href="javascript:delay('soldoa.html')" class="project frontpage bounceOutRight1">
+		<div class="projectimg soldoaimg">
 	    </div>
-			
-			<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">Soldoa</span></h1>
-	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Illustrator<br> Photoshop</h2>
-<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+	    	      <div class="overlay">
+    <div class="text">View Project</div>
+  </div>
 	</a>
 	</div>	
 
 	
-	<div class="section" id="section3">
-    <a href="javascript:delay('eatwelly.html')" class="project frontpage bounceOutLeft1">
-		<div class="projectimg wow fadeInLeft eatwellyimg" data-wow-duration="2.5s" data-wow-delay="0.5s">
+	<div class="section" id="section4">
+    <a href="javascript:delay('eatwelly.html')" class="project frontpage bounceOutRight1">
+		<div class="projectimg eatwellyimg">
 	    </div>
-						<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><span class="underline-headings">EatWelly</span></h1>
-	<h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.5s">Illustrator<br> UI/UX</h2>
-<h3 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">Read more</h3>
+	    	      <div class="overlay">
+    <div class="text">View Project</div>
+  </div>
 
 </a>
 	</div>
 	
 
-
 	</div>
-	
-	<footer>
-	<p><span class="underline-text"><a href="mailto:serena.antonetti@gmail.com?subject=Hi!">serena.antonetti@gmail.com</a></span></p> 
-	</footer>
-	
+	<script>$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay-nav').toggleClass('open');
+		});</script>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>	
 </body>
 </html>
