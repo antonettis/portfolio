@@ -547,7 +547,7 @@ h4::after {
 .coord {
 	position: fixed;
 	top: 60%;
-	left: calc(0% - 32px);
+	left: calc(0% - 70px);
 	z-index: 10;
 	cursor: pointer;
 -webkit-transform: rotate(-90deg);
