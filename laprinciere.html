@@ -3,7 +3,7 @@
 
 <head>
 
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Cutive+Mono|Playfair+Display:400,400i,700,700i|Josefin+Sans:300,400|Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Marcellus|Sorts+Mill+Goudy|Cutive+Mono|Playfair+Display:400,400i,700,700i|Josefin+Sans:300,400|Didact+Gothic" rel="stylesheet">
 	<title>Serena Antonetti | La Princiere</title>
 	<meta name="author" content="Serena Antonetti" />
 	<meta name="description" content="Serena Antonetti graphic design web portfolio" />
@@ -37,7 +37,7 @@
     <div class="scroll-progress-bar"></div>
 			    <div class="nav-container">
     </div>
-    <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="button_container wow fadeInRight toggle" data-wow-duration="2s" data-wow-delay="1s"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
     <div class="overlay-nav" id="overlay-nav">
       <nav class="overlay-menu">
         <ul>
@@ -47,20 +47,25 @@
         </ul>
       </nav>
       <p><a href="mailto:serena.antonetti@gmail.com?subject=Hi!">serena.antonetti@gmail.com</a></p>
-    </div>
+    </div>    
+    
 <header>
-	<a href="index.html" class="wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay=".5s">Home</a> 
+		<a href="index.html"><svg class="backhome" enable-background="new 0 0 566.9 566.9" version="1.1" viewBox="0 0 566.9 566.9" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<path class="st0" d="m217.5 371.5l-53.8 126h-28.1l181-428.1h30.6l199.4 428.1h-59.3l-58.7-126h-211.1zm102.1-233.7h-2.4l-88.1 206.2h186.5l-96-206.2z"/>
+<rect class="st0" x="20.4" y="344" width="389" height="27.5"/>
+</svg></a>
 			</header>
 
 		<div class="icon-scroll wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.5s"></div>
 
 <div class="portfoliowrap">
 <div class="portfolio">
-<h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">La Princi&egrave;re</h1>
+<h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s">La Princiere</h1>
 <img src="img/LaPrinciere1.jpg" alt="La Princiere Menus" class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="2s">
 <div class="grid">
   <div class="grid__item grid__item_item-v1 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s"><h4>Date</h4><p>2018</p></div>
   <div class="grid__item grid__item_item-v2 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".5s"><h4>Project</h4><p>School</p></div>
+ 
   <div class="grid__item grid__item_item-v3 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s"><p>For this assignment, we were required to pick a small business and redesign their online store. La Princi&egrave;re is a small p&acirc;tisserie located in the South of France. Apart from a Facebook page, their online presence is currently inexistent. In addition to the website redesign, I decided to refresh their branding. I chose to keep the branding simple, to reflect the elegance of the bakery. I focused on using luxurious textures and slightly colored paper. The soothing pastel colour scheme is quite common for bakeries, as it resembles the delicate pastries the French are well known for.</p></div>
 </div>
 
@@ -90,8 +95,8 @@ function updateProgress() {
 </script>
 	
 	
-		<script>$('#toggle').click(function() {
-   $(this).toggleClass('active');
+			<script>$('.toggle').click(function() {
+   $('.button_container').toggleClass('active');
    $('#overlay-nav').toggleClass('open');
 		});</script>
 		
