@@ -138,7 +138,7 @@ color: #9A9A9A;
 }
 
 #menu li:nth-of-type(4) .menu__item-name::before{
-	background: #dacb6e;
+	background: #ff8000;
 }
 
 #menu li:nth-of-type(5) .menu__item-name::before{
