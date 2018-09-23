@@ -31,6 +31,7 @@ a {
 	
 }
 
+
 ul, ol {
 	list-style: none;
 }
@@ -90,7 +91,7 @@ canvas {
 }
 
 #menu li a:hover {
-	cursor: default;
+	cursor: pointer;
 }
 
 .menu__item-number {
