@@ -455,8 +455,19 @@ h3 {
   background-position: 0% 0%;
 }
 
+.external-link {
+	color: #5271b2;
+	margin-right: 5px;
+}
 
-
+.external-link:after {
+  content: 'b';
+font-family: 'untitled-font-2';
+font-weight: normal;
+font-style: normal;
+	margin-top: -5px;
+	position: absolute;
+font-size: 7px;}
 
 h4 {
 	font-family: 'Josefin Sans', sans-serif;
