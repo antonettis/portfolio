@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display|Josefin+Sans|Karla|Krona+One&display=swap');
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
+
+@import "modules/_vars.scss";
+@import "modules/animate.scss";
+
+//----------------------------------*\
+// LAYOUTS
+//----------------------------------*/
+
+@import "layouts/_app.scss";
+@import "layouts/_menu.scss";
+@import "layouts/_homepage.scss";
+@import "layouts/_project.scss";
